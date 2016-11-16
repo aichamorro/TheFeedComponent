@@ -1,7 +1,9 @@
 PODS:
+  - AppComponent (0.1.0)
   - Nimble (5.1.1)
   - Quick (0.10.0)
-  - TheFeedComponent (0.1.0)
+  - TheFeedComponent (0.1.0):
+    - AppComponent (~> 0.1.0)
 
 DEPENDENCIES:
   - Nimble (~> 5.0)
@@ -13,10 +15,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  AppComponent: 3f100e3d8a861932750b6eb33bb44729f36cdde3
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
   Quick: 5d290df1c69d5ee2f0729956dcf0fd9a30447eaa
-  TheFeedComponent: e0323c02d45f5beb23445a2fcd6b43da247dfb54
+  TheFeedComponent: a80e714e111e5aae526d2d88892f0535dccd3f9a
 
-PODFILE CHECKSUM: 98158643b5088bce3d2625f8466405605922f75b
+PODFILE CHECKSUM: e3a301c7085dfb82a78d3c6e3e18a3562e14b1dd
 
 COCOAPODS: 1.1.1

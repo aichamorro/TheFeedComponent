@@ -16,7 +16,15 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "TheFeedComponent/Classes/**/*"
+  "source_files": "TheFeedComponent/Classes/**/*",
+  "resource_bundles": {
+    "TheFeedComponent": "TheFeedComponent/Assets/**/*"
+  },
+  "dependencies": {
+    "AppComponent": [
+      "~> 0.1.0"
+    ]
+  }
 }
