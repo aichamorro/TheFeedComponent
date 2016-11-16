@@ -1,0 +1,22 @@
+{
+  "name": "TheFeedComponent",
+  "version": "0.1.0",
+  "summary": "A short description of TheFeedComponent.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/TheFeedComponent",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Alberto Chamorro": "alberto.chamorro@hudl.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/TheFeedComponent.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TheFeedComponent/Classes/**/*"
+}

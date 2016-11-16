@@ -1,0 +1,6 @@
+framework module Pods_TheFeedComponent_Example {
+  umbrella header "Pods-TheFeedComponent_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

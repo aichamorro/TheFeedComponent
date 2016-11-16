@@ -1,0 +1,6 @@
+framework module TheFeedComponent {
+  umbrella header "TheFeedComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}
