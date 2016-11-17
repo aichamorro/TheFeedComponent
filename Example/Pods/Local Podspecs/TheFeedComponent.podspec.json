@@ -12,8 +12,8 @@
     "Alberto Chamorro": "alberto.chamorro@hudl.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/TheFeedComponent.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/aichamorro/TheFeedComponent.git",
+    "commit": "cc9a05626b31149c7aaa5b89641d771bafb76902"
   },
   "platforms": {
     "ios": "9.0"
@@ -25,6 +25,9 @@
   "dependencies": {
     "AppComponent": [
       "~> 0.1.0"
+    ],
+    "HudlLog": [
+
     ]
   }
 }

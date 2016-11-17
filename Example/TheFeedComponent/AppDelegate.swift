@@ -8,6 +8,7 @@
 
 import UIKit
 import TheFeedComponent
+import HudlLog
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,13 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var component: TheFeedComponent!
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        component = TheFeedComponent()
+        component = TheFeedComponent(logger: HudlLogImpl())
         
         // Override point for customization after application launch.
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         
-        component.open(url: URL(string: "hudl://feed")!) {
+        _ = component.open(url: URL(string: "hudl://feed")!) {
             window?.rootViewController = $0
         }
         

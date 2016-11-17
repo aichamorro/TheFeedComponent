@@ -85,9 +85,11 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/AppComponent/AppComponent.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/HudlLog/HudlLog.framework"
   install_framework "$BUILT_PRODUCTS_DIR/TheFeedComponent/TheFeedComponent.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/AppComponent/AppComponent.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/HudlLog/HudlLog.framework"
   install_framework "$BUILT_PRODUCTS_DIR/TheFeedComponent/TheFeedComponent.framework"
 fi

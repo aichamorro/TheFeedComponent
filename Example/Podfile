@@ -4,6 +4,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'TheFeedComponent_Example' do
   pod 'TheFeedComponent', :path => '../'
+  pod 'HudlLog/Implementation'
 
   target 'TheFeedComponent_Tests' do
     inherit! :search_paths

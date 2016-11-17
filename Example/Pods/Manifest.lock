@@ -1,11 +1,18 @@
 PODS:
   - AppComponent (0.1.0)
+  - HudlLog (0.1.0):
+    - HudlLog/Core (= 0.1.0)
+  - HudlLog/Core (0.1.0)
+  - HudlLog/Implementation (0.1.0):
+    - HudlLog/Core
   - Nimble (5.1.1)
   - Quick (0.10.0)
   - TheFeedComponent (0.1.0):
     - AppComponent (~> 0.1.0)
+    - HudlLog
 
 DEPENDENCIES:
+  - HudlLog/Implementation
   - Nimble (~> 5.0)
   - Quick (~> 0.10)
   - TheFeedComponent (from `../`)
@@ -16,10 +23,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AppComponent: 3f100e3d8a861932750b6eb33bb44729f36cdde3
+  HudlLog: 51d3fd0feed4b7ba44ee8f0c48fd7bd7d2dcf4fa
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
   Quick: 5d290df1c69d5ee2f0729956dcf0fd9a30447eaa
-  TheFeedComponent: a80e714e111e5aae526d2d88892f0535dccd3f9a
+  TheFeedComponent: b98ce7c41f6fbda678072771c55bab888251fd56
 
-PODFILE CHECKSUM: e3a301c7085dfb82a78d3c6e3e18a3562e14b1dd
+PODFILE CHECKSUM: 65be8c259f57dbe6b845c11e1255c08f343905b4
 
 COCOAPODS: 1.1.1

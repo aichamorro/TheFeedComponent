@@ -8,9 +8,14 @@
 
 import Foundation
 import AppComponent
+import HudlLog
 
 public class TheFeedComponent: HudlComponent {
-    public init() {}
+    let logger: HudlLog
+    
+    public init(logger: HudlLog) {
+        self.logger = logger
+    }
     
     public func canHandle(host: String, path: String) -> Bool {
         return host == "feed"

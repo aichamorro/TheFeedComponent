@@ -1,0 +1,6 @@
+framework module HudlLog {
+  umbrella header "HudlLog-umbrella.h"
+
+  export *
+  module * { export * }
+}
