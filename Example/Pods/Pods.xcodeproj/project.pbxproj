@@ -33,9 +33,13 @@
 		3630793D3ACC9BC6F6BCFAF7F59F4A7C /* QuickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B14CA6826443B8EEB0AF91F175419E35 /* QuickSpec.m */; };
 		3808D1D986980045CF7DE9BA54DDE006 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AA27C0162C4143E66FD768CDC9C544 /* Foundation.framework */; };
 		390AF94A1DDE08CF009BFA28 /* FeedUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390AF9491DDE08CF009BFA28 /* FeedUIViewController.swift */; };
-		390AF94E1DDE238B009BFA28 /* FullSizeRender.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390AF94C1DDE2359009BFA28 /* FullSizeRender.jpg */; };
 		390AF9501DDE2406009BFA28 /* huskers-icon.gif in Resources */ = {isa = PBXBuildFile; fileRef = 390AF94F1DDE2406009BFA28 /* huskers-icon.gif */; };
 		390AF9521DDE2768009BFA28 /* FullSizeRender 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390AF9511DDE2768009BFA28 /* FullSizeRender 2.jpg */; };
+		390AF9581DDE2C2A009BFA28 /* FullSizeRender.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390AF9571DDE2C2A009BFA28 /* FullSizeRender.jpg */; };
+		390AF9591DDE2C2A009BFA28 /* FullSizeRender.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390AF9571DDE2C2A009BFA28 /* FullSizeRender.jpg */; };
+		390AF95A1DDE2C31009BFA28 /* FullSizeRender 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 390AF9511DDE2768009BFA28 /* FullSizeRender 2.jpg */; };
+		390AF95B1DDE2C31009BFA28 /* huskers-icon.gif in Resources */ = {isa = PBXBuildFile; fileRef = 390AF94F1DDE2406009BFA28 /* huskers-icon.gif */; };
+		390AF95C1DDE2C31009BFA28 /* FeedStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE422DD685E76EDEF537F960AA1201D6 /* FeedStoryboard.storyboard */; };
 		3A9DE5E02A5ADDF4742F73DB9818AF40 /* ThrowAssertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B46383DC24130D21B2F2215BFF3C25 /* ThrowAssertion.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		3E3D5330F18C8B08465D8B8D8B5EBF89 /* ErrorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3284C2955F57E34C39631CD347B7479C /* ErrorUtility.swift */; };
 		3F1200E5A3E18DEFAE54BC7BA806A8DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AA27C0162C4143E66FD768CDC9C544 /* Foundation.framework */; };
@@ -239,9 +243,9 @@
 		3834348D70EB515C43290EB11BFE4205 /* AppComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppComponent.swift; path = AppComponent/Classes/AppComponent.swift; sourceTree = "<group>"; };
 		386D86277433BD887E05293B17B70E45 /* ExampleGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleGroup.swift; path = Sources/Quick/ExampleGroup.swift; sourceTree = "<group>"; };
 		390AF9491DDE08CF009BFA28 /* FeedUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedUIViewController.swift; sourceTree = "<group>"; };
-		390AF94C1DDE2359009BFA28 /* FullSizeRender.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FullSizeRender.jpg; path = ../../../../../../Downloads/FullSizeRender.jpg; sourceTree = "<group>"; };
 		390AF94F1DDE2406009BFA28 /* huskers-icon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "huskers-icon.gif"; sourceTree = "<group>"; };
 		390AF9511DDE2768009BFA28 /* FullSizeRender 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "FullSizeRender 2.jpg"; sourceTree = "<group>"; };
+		390AF9571DDE2C2A009BFA28 /* FullSizeRender.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FullSizeRender.jpg; sourceTree = "<group>"; };
 		3B132AFCAE069ADC513D20D0141015AF /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = Sources/Quick/Example.swift; sourceTree = "<group>"; };
 		3DC732D560D0709F6CA2E96B978C6393 /* QuickSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpec.h; path = Sources/QuickObjectiveC/QuickSpec.h; sourceTree = "<group>"; };
 		3EA2A7A45D0EBEB4EDBA573C7CC9A5B7 /* Pods-TheFeedComponent_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TheFeedComponent_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -688,9 +692,9 @@
 		7005BA6353A6887C9F0A51C782B08960 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				390AF9571DDE2C2A009BFA28 /* FullSizeRender.jpg */,
 				390AF9511DDE2768009BFA28 /* FullSizeRender 2.jpg */,
 				390AF94F1DDE2406009BFA28 /* huskers-icon.gif */,
-				390AF94C1DDE2359009BFA28 /* FullSizeRender.jpg */,
 				DE422DD685E76EDEF537F960AA1201D6 /* FeedStoryboard.storyboard */,
 			);
 			path = Assets;
@@ -1079,8 +1083,8 @@
 			files = (
 				A4251B62A764E2B6394401687333AA15 /* FeedStoryboard.storyboard in Resources */,
 				390AF9501DDE2406009BFA28 /* huskers-icon.gif in Resources */,
-				390AF94E1DDE238B009BFA28 /* FullSizeRender.jpg in Resources */,
 				390AF9521DDE2768009BFA28 /* FullSizeRender 2.jpg in Resources */,
+				390AF9591DDE2C2A009BFA28 /* FullSizeRender.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1089,6 +1093,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB35961DAB012EEFCF4219EF1C586F2D /* TheFeedComponent.bundle in Resources */,
+				390AF95A1DDE2C31009BFA28 /* FullSizeRender 2.jpg in Resources */,
+				390AF9581DDE2C2A009BFA28 /* FullSizeRender.jpg in Resources */,
+				390AF95C1DDE2C31009BFA28 /* FeedStoryboard.storyboard in Resources */,
+				390AF95B1DDE2C31009BFA28 /* huskers-icon.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
