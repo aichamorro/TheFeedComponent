@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Alberto Chamorro' => 'alberto.chamorro@hudl.com' }
-  s.source           = { :git => 'https://github.com/aichamorro/TheFeedComponent.git', :commit=> '3ee9d1a4793b322ed3c400d047099962c357c1eb' }
+  s.source           = { :git => 'https://github.com/aichamorro/TheFeedComponent.git', :commit=> '21de09044038d004382f9796d86b9d6c44d84b92' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
