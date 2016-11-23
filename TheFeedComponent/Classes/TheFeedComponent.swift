@@ -14,21 +14,9 @@ import URLRouter
 public class TheFeedComponent {
     let logger: HudlLog
     
-    private lazy var bundle: Bundle = {
-        let frameworkBundle = Bundle(for: type(of:self))
-        
-        guard let podBundleUrl = frameworkBundle.url(forResource: "TheFeedComponent", withExtension: "bundle"),
-            let podBundle = Bundle(path: podBundleUrl.path) else
-        {
-            fatalError()
-        }
-        
-        return frameworkBundle
-    }()
-    
     private lazy var routerEntries: [URLRouterEntry] = {
         let feedListEntry = URLRouterEntryFactory.with(pattern: "hudl://feed") { url, parameters in
-            let storyboard = UIStoryboard(name: "FeedStoryboard", bundle: self.bundle)
+            let storyboard = UIStoryboard(name: "FeedStoryboard", bundle: self.bundle(name: "TheFeedComponent"))
             
             return storyboard.instantiateInitialViewController()
         }
@@ -43,28 +31,22 @@ public class TheFeedComponent {
     public init(logger: HudlLog) {
         self.logger = logger
      }
+    
+    private func bundle(name: String) -> Bundle? {
+        let frameworkBundle = Bundle(for: type(of:self))
+        
+        guard let podBundleUrl = frameworkBundle.url(forResource: name, withExtension: "bundle"),
+            let podBundle = Bundle(path: podBundleUrl.path) else
+        {
+            fatalError()
+        }
+        
+        return frameworkBundle
+    }
 }
 
-extension TheFeedComponent: HudlComponent {
-    public func canHandle(host: String, path: String) -> Bool {
-        return true
-    }
-    
+extension TheFeedComponent: AppComponent {
     public func open(url: URL, resultHandler: @escaping (UIViewController?) -> Void) -> Bool {
-        return router(url, { result in
-            guard let result = result else {
-                resultHandler(nil)
-                
-                return
-            }
-            
-            if let controller = result as? UIViewController {
-                resultHandler(controller)
-                
-                return
-            }
-            
-            fatalError("The obtained result type does not match the expected one")
-        })
+        return router(url, URLResultHandlerAdapter(handler: resultHandler))
     }
 }

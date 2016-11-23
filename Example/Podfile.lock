@@ -11,7 +11,7 @@ PODS:
     - AppComponent (~> 0.1.0)
     - HudlLog
     - URLRouter
-  - URLRouter (1.0.0)
+  - URLRouter (1.1.0)
 
 DEPENDENCIES:
   - HudlLog/Implementation
@@ -24,12 +24,12 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AppComponent: 6c5e4bb2a7a7ecee01cf75a53388f1bd1545c02f
+  AppComponent: 67f9524506766c3e8a3a04bae6c37da0031222f0
   HudlLog: 51d3fd0feed4b7ba44ee8f0c48fd7bd7d2dcf4fa
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
   Quick: 5d290df1c69d5ee2f0729956dcf0fd9a30447eaa
-  TheFeedComponent: be862c610f2fd615b5f8af61885dbb19a7ddb52b
-  URLRouter: 57b951857b25c2af14a5162c1564394cdfd5a4f2
+  TheFeedComponent: 04e32c26a5efd764a7bacd5fdc8443144f003e50
+  URLRouter: be51b4ab88d97154ca5425a5994c767b2f44bccf
 
 PODFILE CHECKSUM: 65be8c259f57dbe6b845c11e1255c08f343905b4
 

@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/aichamorro/TheFeedComponent.git",
-    "commit": "5be049137c069a409acc9e7ffcf4a41591037f79"
+    "commit": "b54ebc9c9f8aaa0684845500127333a9c24e873b"
   },
   "platforms": {
     "ios": "9.0"
