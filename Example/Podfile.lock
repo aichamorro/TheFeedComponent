@@ -24,11 +24,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AppComponent: 3f100e3d8a861932750b6eb33bb44729f36cdde3
+  AppComponent: 6c5e4bb2a7a7ecee01cf75a53388f1bd1545c02f
   HudlLog: 51d3fd0feed4b7ba44ee8f0c48fd7bd7d2dcf4fa
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
   Quick: 5d290df1c69d5ee2f0729956dcf0fd9a30447eaa
-  TheFeedComponent: ad099ba84163ee3d35dfc8266145d70113c5cf19
+  TheFeedComponent: be862c610f2fd615b5f8af61885dbb19a7ddb52b
   URLRouter: 57b951857b25c2af14a5162c1564394cdfd5a4f2
 
 PODFILE CHECKSUM: 65be8c259f57dbe6b845c11e1255c08f343905b4
