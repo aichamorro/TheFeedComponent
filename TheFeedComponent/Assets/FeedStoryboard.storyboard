@@ -30,7 +30,7 @@
         <!--Home-->
         <scene sceneID="zKS-f0-Oh1">
             <objects>
-                <tableViewController title="Home" id="gqc-Nk-SHE" customClass="FeedUIViewController" customModule="AppComponent" sceneMemberID="viewController">
+                <tableViewController title="Home" id="gqc-Nk-SHE" customClass="FeedUIViewController" customModule="TheFeedComponent" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="289" sectionHeaderHeight="28" sectionFooterHeight="28" id="ZsS-aG-Hyz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

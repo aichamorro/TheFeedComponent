@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         
         _ = component.open(url: URL(string: "hudl://feed")!) {
-            window?.rootViewController = $0
+            self.window?.rootViewController = $0
         }
         
         return true

@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 public protocol AppComponent {
-    func open(url: URL, resultHandler: (UIViewController?) -> Void) -> Bool
+    func open(url: URL, resultHandler: @escaping (UIViewController?) -> Void) -> Bool
     func canHandle(url: URL) -> Bool
 }
 
