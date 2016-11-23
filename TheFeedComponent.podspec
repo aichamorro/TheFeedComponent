@@ -37,4 +37,5 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AppComponent', '~> 0.1.0'
   s.dependency 'HudlLog'
+  s.dependency 'URLRouter'
 end

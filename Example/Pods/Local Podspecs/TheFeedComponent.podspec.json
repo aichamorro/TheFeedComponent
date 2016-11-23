@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/aichamorro/TheFeedComponent.git",
-    "commit": "cc9a05626b31149c7aaa5b89641d771bafb76902"
+    "commit": "614a6322f2e450eea80a32d5ac2d8e7279115bba"
   },
   "platforms": {
     "ios": "9.0"
@@ -27,6 +27,9 @@
       "~> 0.1.0"
     ],
     "HudlLog": [
+
+    ],
+    "URLRouter": [
 
     ]
   }
